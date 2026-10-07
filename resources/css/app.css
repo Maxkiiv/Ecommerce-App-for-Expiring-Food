@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
+@source "../../storage/framework/views/*.php";
+
+@plugin "daisyui" {
+  themes: light --default, cupcake, cyberpunk, dark;
+}
+
+/* This tells Tailwind to apply dark: classes when .dark is on the <html> element */
+@custom-variant dark (&:where(.dark, .dark *));

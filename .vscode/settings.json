@@ -1,0 +1,36 @@
+{
+    // ===== SET PHP PATH HERE
+    "php.validate.executablePath": "C:/Users/cloud/.config/herd/bin/php84/php.exe",
+    // ===== EXAMPLE OF WINDOWS PATHS
+    // "php.validate.executablePath": "C:/Users/USERNAME/.config/herd/bin/php84/php.exe",
+    // "php.validate.executablePath": "C:/xampp/php/php.exe",
+    // "php.validate.executablePath": "C:/laragon/bin/php/php-8.2.0/php.exe",
+    // 
+    // ===== EXAMPLES OF MAC OS
+    // "php.validate.executablePath": "/Applications/Herd/bin/php",
+    // "php.validate.executablePath": "/Applications/MAMP/bin/php/php8.1.0/bin/php",
+    // 
+    // ===== EXAMPLE OF DOCKER / UBUNTU
+    // "php.validate.executablePath": "/usr/bin/php",
+    // 
+    // =====
+    // SET DEFAULT TERMINAL FOR WINDOWS AND MAC
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.editor.enablePreview": false,
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "editor.linkedEditing": true,
+    // ===== ESSENTIALS START HERE
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+        "editor.formatOnSave": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": true
+    },
+    "files.associations": {
+        "*.blade.php": "blade"
+    },
+    "intelephense.completion.insertUseDeclaration": true,
+}

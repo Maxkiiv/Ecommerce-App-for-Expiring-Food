@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "bmewburn.vscode-intelephense-client", // PHP Intelephense - PHP intellisense
+    "laravel.vscode-laravel", // Laravel - Laravel autocomplete, routes, views
+    "onecentlin.laravel5-snippets", // Laravel 5 Snippets - Blade & Laravel snippets
+    "shufo.vscode-blade-formatter", // Blade Formatter - Formats Blade templates
+    "mikestead.dotenv", // DotENV - .env syntax highlighting
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense - Tailwind class suggestions
+    "austenc.laravel-blade-spacer", // Laravel Blade Spacer - Auto-spaces Blade directives
+    "amiralizadeh9480.laravel-extra-intellisense", // Laravel Extra Intellisense - Facades, models, config autocomplete
+    "ryannaddy.laravel-artisan", // Laravel Artisan - Run Artisan commands from VSCode
+    "csstools.postcss", // PostCSS - PostCSS syntax for tailwind.css
+    "mehedidracula.php-namespace-resolver", // PHP Namespace Resolver - Auto-imports/use statements
+    "usernamehw.errorlens", // Error Lens - Shows errors inline as you type
+    "onecentlin.laravel-blade", // Laravel Blade Snippets	- Blade snippets and syntax
+    "codingyu.laravel-goto-view", // Laravel goto view - Jump to blade file         
+    "pgl.laravel-jump-controller", // Laaravel jump controller - Jump to controller file
+    "naoray.laravel-goto-components", // Laravel goto components - Jump to component file,
+    "vincaslt.highlight-matching-tag", // Highlight matching tag - Identify opening and closing tags
+    "damms005.devdb", // DevDB - Database management tool
+  ]
+}
