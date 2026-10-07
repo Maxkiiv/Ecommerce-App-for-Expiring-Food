@@ -76,3 +76,4 @@ Route::post('/admin/logout', function () {
 
 // Features Routes
 // Git practice: Updated my Laravel project using VS Code.
+// Practicing Git commits for my ecommerce application.
