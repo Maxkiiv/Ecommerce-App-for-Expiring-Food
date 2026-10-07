@@ -75,3 +75,4 @@ Route::post('/admin/logout', function () {
 })->name('filament.admin.auth.logout');
 
 // Features Routes
+// Git practice: Updated my Laravel project using VS Code.
